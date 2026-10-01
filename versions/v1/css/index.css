@@ -10,55 +10,83 @@ header {
     height: 150px;
 }
 
-.counteiner-header {
+.container-header {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center ;
+    justify-content: center;
 }
 
 .count-header-cabecario {
-    width: 80%;
+    width: 100%;
     height: 100%;
-    background-color: rgb(252, 232, 177);
+    background-color: rgb(1, 92, 150);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /* BODY */
-.counteiner-body {
+.container-body {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
 }
 
-.counteiner-conteudo {
-    width: 80%;
+.container-conteudo {
+    width: 100%;
     height: 100%;
-    background-color: rgb(79, 175, 79);
+    background-color: lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.counteiner-conteudo2 {
+.container-conteudo2 {
     width: 80%;
     height: 80%;
     background-color: rgb(65, 106, 184);
 }
 
-.counteiner-ferramentas {
+.container-ferramentas form {
     width: 100%;
     height: 100px;
-    background-color: rgb(190, 253, 178);
+    background-color: rgb(1, 92, 150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.counteiner-cards {
+/* PC */
+.container-cards {
     width: 100%;
     height: calc(100% - 100px);
-    background-color: rgb(236, 215, 157);
+    background-color: lightcyan;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .container-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* Celular */
+@media (max-width: 600px) {
+    .container-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.card {
+    width: 80%;
+    height: 80%;
+    background-color: rgb(106, 165, 201);
 }
 
 /* FOOTER */
@@ -67,7 +95,7 @@ footer {
     height: 200px;
 }
 
-.counteiner-footer {
+.container-footer {
     width: 100%;
     height: 100%;
     display: flex;
@@ -75,19 +103,26 @@ footer {
 }
 
 .conteudo-footer {
-    width: 80%;
+    width: 100%;
     height: 100%;
     background-color: gray;
 }
 
-/* Celular */
-@media (max-width: 769px) {
-    .count-header-cabecario {
-        width: 100%;
+.search-btn {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
 }
 
-    .counteiner-conteudo {
-        width: 100%;
+.search-btn img {
+    width: 30px;
+    height: 30px;
 }
 
+.search-input {
+    width: 20%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
 }
