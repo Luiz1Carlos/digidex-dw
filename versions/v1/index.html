@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DIGIDEX</title>
 
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
@@ -15,38 +15,41 @@
         </div>
       </div>
     </header>
+
     <main>
+      
       <div class="container-body">
+
         <div class="container-conteudo">
+
           <div class="container-conteudo2">
+
             <div class="container-ferramentas">
               <form>
-                <input class="search-input" type="text" placeholder="Digite sua pesquisa">
+                <input class="search-input" id="busca" type="text" placeholder="Buscar Digimon...">
                 <button class="search-btn" type="submit"><img src="assets/lupa-icon.svg" alt="Search button"></button>
               </form>
             </div>
             <div class="container-cards">
-              <div class="card"></div>
-              <div class="card"></div>
-              <div class="card"></div>
-              <div class="card"></div>
-              <div class="card"></div>
-              <div class="card"></div>
-              <div class="card"></div>
-              <div class="card"></div>
-              <div class="card"></div>
-              <div class="card"></div>
-              <div class="card"></div>
-              <div class="card"></div>
+              <div class="card" id="lista-digimons"></div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </main>
+    
     <footer>
       <div class="container-footer">
         <div class="conteudo-footer"></div>
       </div>
     </footer>
+
+    <script src="js/data/digimons.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
