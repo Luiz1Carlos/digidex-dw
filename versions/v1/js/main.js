@@ -12,11 +12,11 @@ function renderizarDigimons(listaDigimons) {
 
         card.innerHTML = `
             <img
-                src="${digimon.imagem}"
-                alt="${digimon.nome}"
+                src="${digimon.image}"
+                alt="${digimon.name}"
             >
 
-            <h2>${digimon.nome}</h2>
+            <h2>${digimon.name}</h2>
 
             <p>Nível: ${digimon.nivel}</p>
             <p>Atributo: ${digimon.atributo}</p>
@@ -30,13 +30,13 @@ function renderizarDigimons(listaDigimons) {
     });
 }
 
-renderizarDigimons(digimons.slice(0,8));
+renderizarDigimons(digimons);
 
 busca.addEventListener("input", () => {
     const termo = busca.value.toLowerCase();
 
     const resultados = digimons.filter(digimon =>
-        digimon.nome.toLowerCase().includes(termo)
+        digimon.name.toLowerCase().includes(termo)
     );
 
     renderizarDigimons(resultados);
