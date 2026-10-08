@@ -6,9 +6,10 @@ function renderizarDigimons(listaDigimons) {
     lista.innerHTML = "";
 
     listaDigimons.forEach(digimon => {
-        const card = document.createElement("article");
+        const card = document.createElement("a");
 
         card.classList.add("digimon-card");
+        card.href = `detalhe.html?nome=${encodeURIComponent(digimon.name)}`;
 
         card.innerHTML = `
             <img
@@ -17,13 +18,6 @@ function renderizarDigimons(listaDigimons) {
             >
 
             <h2>${digimon.name}</h2>
-
-            <p>Nível: ${digimon.nivel}</p>
-            <p>Atributo: ${digimon.atributo}</p>
-
-            <button data-id="${digimon.id}">
-                Ver detalhes
-            </button>
         `;
 
         lista.appendChild(card);
