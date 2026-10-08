@@ -1,41 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIGIDEX - Detalhes</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/detalhe.css">
-</head>
-<body>
-    <header>
-        <div class="container-header">
-            <h1>DIGIDEX</h1>
-        </div>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DIGIDEX - Detalhes</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/detalhe.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container-header">
+                <img
+                    src="assets/logotipo/logotipo-header.png"
+                    alt="logotipo-header"
+                />
+            </div>
+        </header>
 
-    <main>
-        <div class="container-body">
-            <div class="container_conteudo">
-                <a href="index.html"><img src="assets/ui/btn-anterior.png" alt="btn-anterior"></a>
+        <main>
+            <div class="container__body">
+                <div class="container__conteudo">
+                    <div class="container__ferramentas">
+                        <a id="btn-volta-index" href="index.html"
+                            ><img
+                                class="btn-volta-index-img"
+                                src="assets/ui/btn-anterior.png"
+                                alt="btn-anterior"
+                        /></a>
+                    </div>
+                    <div id="descricao__digimon">
+                        <div id="detalhe"></div>
 
-                <div id="detalhe"></div>
-
-                <div class="navegacao">
-                    <button id="btn-anterior"><img src="assets/ui/btn-anterior.png" alt="btn-anterior"></button>
-                    <button id="btn-proximo"><img src="assets/ui/btn-proximo.png" alt="btn-proximo"></button>
+                        <div class="navegacao">
+                            <button id="btn-anterior">
+                                <img
+                                    src="assets/ui/btn-anterior.png"
+                                    alt="btn-anterior"
+                                />
+                            </button>
+                            <button id="btn-proximo">
+                                <img
+                                    src="assets/ui/btn-proximo.png"
+                                    alt="btn-proximo"
+                                />
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
+        </main>
 
-    <footer>
-        <div class="container-footer">
-            <div class="conteudo-footer"></div>
-        </div>
-    </footer>
+        <footer>
+            <div class="container-footer">
+                <div class="conteudo-footer">
+                    <p>© 2026 IFRN. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
 
-    <script src="js/data/digimons.js"></script>
-    <script src="js/detalhe.js"></script>
-</body>
+        <script src="js/data/digimons.js"></script>
+        <script src="js/detalhe.js"></script>
+    </body>
 </html>

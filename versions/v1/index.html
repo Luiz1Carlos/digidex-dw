@@ -1,44 +1,50 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DIGIDEX</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DIGIDEX - Início</title>
 
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-        <div class="container-header">
-          <h1>DIGIDEX</h1>
-        </div>
-    </header>
-
-    <main>
-      <div class="container-body">
-          <div class="container-conteudo">
-
-            <div class="container-ferramentas">
-              <form>
-                <input class="search-input" id="busca" type="text" placeholder="Buscar Digimon...">
-              </form>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container-header">
+                <img
+                    src="assets/logotipo/logotipo-header.png"
+                    alt="logotipo-header"
+                />
             </div>
+        </header>
 
-            <div id="lista-digimons"></div>
+        <main>
+            <div class="container-body">
+                <div class="container-conteudo">
+                    <div class="container-ferramentas">
+                        <form>
+                            <input
+                                class="search-input"
+                                id="busca"
+                                type="text"
+                                placeholder="Buscar Digimon..."
+                            />
+                        </form>
+                    </div>
 
-          </div>
-      </div>
-    </main>
-    
-    <footer>
-      <div class="container-footer">
-        <div class="conteudo-footer">
-          <p>© 2026 IFRN. Todos os direitos reservados.</p>
-        </div>
-      </div>
-    </footer>
+                    <div id="lista-digimons"></div>
+                </div>
+            </div>
+        </main>
 
-    <script src="js/data/digimons.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+        <footer>
+            <div class="container-footer">
+                <div class="conteudo-footer">
+                    <p>© 2026 IFRN. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/data/digimons.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>

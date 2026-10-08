@@ -4,23 +4,27 @@
     box-sizing: border-box;
 }
 
-/* HEADER */
+/* ==================== HEADER ==================== */
+
 .container-header {
     width: 100%;
     height: 150px;
-    background-color: rgb(1, 92, 150);
+    background-color: rgb(6, 59, 92);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.container-header img {
+    height: 300px;
+}
 
-/* BODY */
+/* ==================== BODY ==================== */
 
 .container-body {
     width: 100%;
     min-height: 100vh;
-    background-color: lightgray;
+    background-color: rgb(234, 246, 255);
     display: flex;
     justify-content: center;
     align-items: start;
@@ -29,84 +33,53 @@
 .container-conteudo {
     width: 80%;
     min-height: 80%;
-    background-color: rgb(65, 106, 184);
     margin: 100px 0;
+    border: 2px solid rgb(1, 92, 150);
+}
+
+/* ==================== FERRAMENTAS / PESQUISA ==================== */
+
+.container-ferramentas {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 92, 150);
 }
 
 .container-ferramentas form {
     width: 100%; /* % com base em class="container-conteudo" */
-    height: 100px;
-    background-color: rgb(1, 92, 150);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* PC */
-#lista-digimons {
-    width: 100%; /* % com base em class="container-cards" */
-    height: calc(100% - 100px);
-    background-color: lightcyan;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-    padding: 0 10px;
-}
-
-.digimon-card {
-    width: 80%;
-    width: 90%;
-    background-color: rgb(106, 165, 201);
-    margin: 20px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 40px;
-    text-decoration: none;
-    color: inherit;
-}
-
-.digimon-card img{
-    width: 70%;
-    margin-top: 40px;
-    aspect-ratio: 1 / 1;
-    object-fit: contain;
-}
-
-
-/* Tablet */
-@media (max-width: 1024px) {
-    #lista-digimons {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-/* Celular */
-@media (max-width: 600px) {
-    #lista-digimons {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-
-/* FOOTER */
-.container-footer {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-}
-
-.conteudo-footer {
-    width: 100%;
     height: 100%;
-    background-color: gray;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: lightcyan;
+}
+
+.search-input {
+    width: 30%;
+    height: 40px;
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(11, 47, 74);
+
+    border: 2px solid rgb(65, 106, 184);
+    border-radius: 10px;
+
+    padding: 0 15px;
+
+    outline: none;
+
+    transition: 0.2s ease;
+}
+
+.search-input:focus {
+    border-color: orange;
+}
+
+.search-input::placeholder {
+    color: rgb(100, 130, 150);
+    opacity: 1;
 }
 
 .search-btn {
@@ -121,9 +94,101 @@
     height: 30px;
 }
 
-.search-input {
-    width: 20%;
-    height: 30px;
-    border: none;
-    border-radius: 10px;
+/* ==================== LISTA DE DIGIMONS ==================== */
+
+/* PC */
+
+#lista-digimons {
+    width: 100%; /* % com base em class="container-cards" */
+    height: calc(100% - 100px);
+    background-color: rgb(138, 201, 232);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+/* ==================== CARD ==================== */
+
+.digimon-card {
+    width: 90%;
+    background-color: white;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    text-decoration: none;
+    color: rgb(11, 47, 74);
+    border: 2px solid rgb(1, 92, 150);
+    transition: transform 0.2s ease;
+}
+
+.digimon-card:hover {
+    transform: scale(1.02);
+    border: 2px solid orange;
+}
+
+.digimon-card img {
+    width: 70%;
+    margin-top: 40px;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
+
+/* ==================== RESPONSIVIDADE ==================== */
+
+/* Tablet */
+
+@media (max-width: 1024px) {
+    #lista-digimons {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .search-input {
+        width: 50%;
+    }
+}
+
+@media (max-width: 812px) {
+    #lista-digimons {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .search-input {
+        width: 70%;
+    }
+}
+
+/* Celular */
+
+@media (max-width: 600px) {
+    #lista-digimons {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .search-input {
+        width: 70%;
+    }
+}
+
+/* ==================== FOOTER ==================== */
+
+.container-footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-footer {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(6, 59, 92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(224, 255, 255);
 }
