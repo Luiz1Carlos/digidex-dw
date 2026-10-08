@@ -2,3 +2,13 @@
     width: 24px;
     height: 24px;
 }
+
+.navegacao button {
+    width: 32px;
+    background: none;
+    border: none;
+}
+
+.navegacao button img {
+    width: 64px;
+}
