@@ -487,16 +487,64 @@ const digimons = [
         id: null,
         name: "Garurumon",
         image: "assets/images/garurumon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 2,
+                level: "Adult"
+            }
+        ],
+        types: [
+            {
+                id: 10,
+                type: "Beast"
+            }
+        ],
+        attributes: [
+            {
+                id: 1,
+                attribute: "Data"
+            }
+        ],
+        fields: [
+            {
+                id: 2,
+                field: "Nature Spirits",
+                image: "https://digi-api.com/images/etc/fields/Nature_Spirits.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "A wolf-like Beast Digimon covered in blue-striped fur. It is extremely fast and loyal to its partner, and it fights by blowing a freezing blast from its mouth."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Howling Blaster",
+                translation: "",
+                description: "Exhales a blast of freezing blue flame from its mouth."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Gabumon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "WereGarurumon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: 5,
@@ -934,318 +982,1320 @@ const digimons = [
         id: null,
         name: "Palmon",
         image: "assets/images/palmon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 4,
+                level: "Child"
+            }
+        ],
+        types: [
+            {
+                id: null,
+                type: "Plant"
+            }
+        ],
+        attributes: [
+            {
+                id: 1,
+                attribute: "Data"
+            }
+        ],
+        fields: [
+            {
+                id: 2,
+                field: "Nature Spirits",
+                image: "https://digi-api.com/images/etc/fields/Nature_Spirits.png"
+            },
+            {
+                id: 10,
+                field: "Jungle Troopers",
+                image: "https://digi-api.com/images/etc/fields/Jungle_Troopers.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "A plant-type Digimon with a flower on its head and leafy hands. It is gentle and caring, and fights by lashing out with poisonous vines."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Poison Ivy",
+                translation: "",
+                description: "Stretches out ivy vines from its hands to bind and poison the opponent."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Tanemon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Togemon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Togemon",
         image: "assets/images/togemon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 2,
+                level: "Adult"
+            }
+        ],
+        types: [
+            {
+                id: null,
+                type: "Plant"
+            }
+        ],
+        attributes: [
+            {
+                id: 1,
+                attribute: "Data"
+            }
+        ],
+        fields: [
+            {
+                id: 2,
+                field: "Nature Spirits",
+                image: "https://digi-api.com/images/etc/fields/Nature_Spirits.png"
+            },
+            {
+                id: 10,
+                field: "Jungle Troopers",
+                image: "https://digi-api.com/images/etc/fields/Jungle_Troopers.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "A cactus Digimon with a big heart and a powerful punch. Its entire body is covered in sharp needles that it shoots at its enemies."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Needle Spray",
+                translation: "",
+                description: "Fires a barrage of sharp needles from its body."
+            },
+            {
+                id: null,
+                skill: "Lightspeed Jabbing",
+                translation: "",
+                description: "Throws a flurry of extremely fast punches."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Palmon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Lillymon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Rosemon",
         image: "assets/images/rosemon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: null,
+                level: "Ultimate"
+            }
+        ],
+        types: [
+            {
+                id: null,
+                type: "Fairy"
+            }
+        ],
+        attributes: [
+            {
+                id: 1,
+                attribute: "Data"
+            }
+        ],
+        fields: [
+            {
+                id: 2,
+                field: "Nature Spirits",
+                image: "https://digi-api.com/images/etc/fields/Nature_Spirits.png"
+            },
+            {
+                id: 10,
+                field: "Jungle Troopers",
+                image: "https://digi-api.com/images/etc/fields/Jungle_Troopers.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
+        descriptions: {
+            reference_book: {
+                en_us: "A graceful and powerful fairy Digimon who shows both beauty and toughness. She commands roses as weapons and unleashes devastating attacks in battle."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Rose Spear",
+                translation: "",
+                description: "Strikes the opponent with a spear made of roses."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Lillymon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
         nextEvolutions: []
     },
     {
         id: null,
         name: "Gomamon",
         image: "assets/images/gomamon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 4,
+                level: "Child"
+            }
+        ],
+        types: [
+            {
+                id: null,
+                type: "Sea Animal"
+            }
+        ],
+        attributes: [
+            {
+                id: 4,
+                attribute: "Vaccine"
+            }
+        ],
+        fields: [
+            {
+                id: 8,
+                field: "Deep Savers",
+                image: "https://digi-api.com/images/etc/fields/Deep_Savers.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "A seal-like Digimon with a mohawk. It is cheerful and playful, and a great swimmer that can lead many fish at once."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Marching Fishes",
+                translation: "",
+                description: "Calls a swarm of fish that crash into the opponent."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Pukamon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Ikkakumon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Ikkakumon",
         image: "assets/images/ikkakumon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 2,
+                level: "Adult"
+            }
+        ],
+        types: [
+            {
+                id: null,
+                type: "Sea Animal"
+            }
+        ],
+        attributes: [
+            {
+                id: 1,
+                attribute: "Data"
+            }
+        ],
+        fields: [
+            {
+                id: 8,
+                field: "Deep Savers",
+                image: "https://digi-api.com/images/etc/fields/Deep_Savers.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "A giant sea beast with a large horn on its head. It is calm but strong, and it guards the seas with its harpoon attack."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Harpoon Torpedo",
+                translation: "",
+                description: "Fires the horn on its head like a homing torpedo."
+            },
+            {
+                id: null,
+                skill: "Tusk Crusher",
+                translation: "",
+                description: "Charges and rams the opponent with its horn."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Gomamon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Zudomon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Zudomon",
         image: "assets/images/zudomon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 3,
+                level: "Perfect"
+            }
+        ],
+        types: [
+            {
+                id: null,
+                type: "Sea Animal"
+            }
+        ],
+        attributes: [
+            {
+                id: 1,
+                attribute: "Data"
+            }
+        ],
+        fields: [
+            {
+                id: 8,
+                field: "Deep Savers",
+                image: "https://digi-api.com/images/etc/fields/Deep_Savers.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "A powerful aquatic warrior that wields a giant hammer. It is calm and brave, and its strength is feared by the other Digimon of the seas."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Vulcan's Hammer",
+                translation: "",
+                description: "Swings its huge hammer, Vulcan's Hammer, with crushing force."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Ikkakumon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Vikemon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Vikemon",
         image: "assets/images/vikemon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: null,
+                level: "Ultimate"
+            }
+        ],
+        types: [
+            {
+                id: null,
+                type: "Sea Animal"
+            }
+        ],
+        attributes: [
+            {
+                id: 1,
+                attribute: "Data"
+            }
+        ],
+        fields: [
+            {
+                id: 8,
+                field: "Deep Savers",
+                image: "https://digi-api.com/images/etc/fields/Deep_Savers.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
+        descriptions: {
+            reference_book: {
+                en_us: "A Viking-like warrior Digimon, the strongest form of the Gomamon line. It is protective of its allies and fights with great strength."
+            }
+        },
         skills: [],
-        priorEvolutions: [],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Zudomon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
         nextEvolutions: []
     },
     {
         id: null,
         name: "Patamon",
         image: "assets/images/patamon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 4,
+                level: "Child"
+            }
+        ],
+        types: [
+            {
+                id: null,
+                type: "Mammal"
+            }
+        ],
+        attributes: [
+            {
+                id: 1,
+                attribute: "Data"
+            }
+        ],
+        fields: [
+            {
+                id: 9,
+                field: "Virus Busters",
+                image: "https://digi-api.com/images/etc/fields/Virus_Busters.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "A small flying mammal Digimon that uses its big ears as wings. It looks cute, but it is brave and fights for its friends."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Boom Bubble",
+                translation: "",
+                description: "Fires a powerful air bubble from its mouth."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Tokomon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Angemon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Angemon",
         image: "assets/images/angemon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 2,
+                level: "Adult"
+            }
+        ],
+        types: [
+            {
+                id: null,
+                type: "Angel"
+            }
+        ],
+        attributes: [
+            {
+                id: 4,
+                attribute: "Vaccine"
+            }
+        ],
+        fields: [
+            {
+                id: 9,
+                field: "Virus Busters",
+                image: "https://digi-api.com/images/etc/fields/Virus_Busters.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "An angel Digimon with six wings that fights evil with righteous power. It uses a holy rod and its fists to purify its enemies."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Hand of Fate",
+                translation: "",
+                description: "Sends a beam of holy light from its fist."
+            },
+            {
+                id: null,
+                skill: "Heaven's Knuckle",
+                translation: "",
+                description: "Delivers a punch charged with holy power."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Patamon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "MagnaAngemon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Seraphimon",
         image: "assets/images/seraphimon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: null,
+                level: "Ultimate"
+            }
+        ],
+        types: [
+            {
+                id: null,
+                type: "Angel"
+            }
+        ],
+        attributes: [
+            {
+                id: 4,
+                attribute: "Vaccine"
+            }
+        ],
+        fields: [
+            {
+                id: 9,
+                field: "Virus Busters",
+                image: "https://digi-api.com/images/etc/fields/Virus_Busters.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
+        descriptions: {
+            reference_book: {
+                en_us: "The highest-ranked angel Digimon, with six golden wings. It carries immense holy power and watches over the Digital World."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Strike of the Seven Heavens",
+                translation: "",
+                description: "Releases seven spheres of holy light that purify the opponent."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "MagnaAngemon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
         nextEvolutions: []
     },
     {
         id: null,
         name: "Angewomon",
-        image: "assets/images/ angewomon.png".replace(" ", ""),
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        image: "assets/images/angewomon.png",
+        xAntibody: false,
+        levels: [
+            {
+                id: 3,
+                level: "Perfect"
+            }
+        ],
+        types: [
+            {
+                id: null,
+                type: "Angel"
+            }
+        ],
+        attributes: [
+            {
+                id: 4,
+                attribute: "Vaccine"
+            }
+        ],
+        fields: [
+            {
+                id: 9,
+                field: "Virus Busters",
+                image: "https://digi-api.com/images/etc/fields/Virus_Busters.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "A female angel Digimon who fights evil with the power of light. She is graceful, and her arrows never miss their target."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Celestial Arrow",
+                translation: "",
+                description: "Fires an arrow of light from her bow."
+            },
+            {
+                id: null,
+                skill: "Heaven's Charm",
+                translation: "",
+                description: "Creates a holy light that purifies evil Digimon."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Gatomon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Magnadramon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Wormmon",
         image: "assets/images/wormmon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 4,
+                level: "Child"
+            }
+        ],
+        types: [
+            {
+                id: 25,
+                type: "Insect"
+            }
+        ],
+        attributes: [
+            {
+                id: 1,
+                attribute: "Data"
+            }
+        ],
+        fields: [
+            {
+                id: 2,
+                field: "Nature Spirits",
+                image: "https://digi-api.com/images/etc/fields/Nature_Spirits.png"
+            },
+            {
+                id: 10,
+                field: "Jungle Troopers",
+                image: "https://digi-api.com/images/etc/fields/Jungle_Troopers.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "A small caterpillar-like Digimon that looks weak but is brave and gentle. It protects its partner with sticky threads."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Sticky Net",
+                translation: "",
+                description: "Spits a sticky net from its mouth to trap the opponent."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Minomon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Stingmon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Stingmon",
         image: "assets/images/stingmon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 2,
+                level: "Adult"
+            }
+        ],
+        types: [
+            {
+                id: 25,
+                type: "Insect"
+            }
+        ],
+        attributes: [
+            {
+                id: 4,
+                attribute: "Vaccine"
+            }
+        ],
+        fields: [
+            {
+                id: 2,
+                field: "Nature Spirits",
+                image: "https://digi-api.com/images/etc/fields/Nature_Spirits.png"
+            },
+            {
+                id: 10,
+                field: "Jungle Troopers",
+                image: "https://digi-api.com/images/etc/fields/Jungle_Troopers.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "An insect warrior with sharp spikes on its arms. It moves with great speed and strikes precisely with its stinger."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Spiking Strike",
+                translation: "",
+                description: "Rushes the opponent and pierces it with the spikes on its arms."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Wormmon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Paildramon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Impmon",
         image: "assets/images/impmon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 4,
+                level: "Child"
+            }
+        ],
+        types: [
+            {
+                id: null,
+                type: "Mini Devil"
+            }
+        ],
+        attributes: [
+            {
+                id: 3,
+                attribute: "Virus"
+            }
+        ],
+        fields: [
+            {
+                id: 3,
+                field: "Nightmare Soldiers",
+                image: "https://digi-api.com/images/etc/fields/Nightmare_Soldiers.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
+        descriptions: {
+            reference_book: {
+                en_us: "A small devil Digimon with a mischievous and proud attitude. It uses fire attacks and loves to play pranks."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Night of Fire",
+                translation: "",
+                description: "Shoots a fireball from its hands."
+            }
+        ],
         priorEvolutions: [],
-        nextEvolutions: []
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Beelzemon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Renamon",
         image: "assets/images/renamon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 4,
+                level: "Child"
+            }
+        ],
+        types: [
+            {
+                id: 10,
+                type: "Beast"
+            }
+        ],
+        attributes: [
+            {
+                id: 1,
+                attribute: "Data"
+            }
+        ],
+        fields: [
+            {
+                id: 2,
+                field: "Nature Spirits",
+                image: "https://digi-api.com/images/etc/fields/Nature_Spirits.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "A fox-like Digimon with great agility and a calm personality. It is skilled in martial arts and attacks with sharp crystal shards."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Diamond Storm",
+                translation: "",
+                description: "Throws crystal shards at the opponent from a distance."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Kyaromon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Kyubimon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Kyubimon",
         image: "assets/images/kyubimon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 2,
+                level: "Adult"
+            }
+        ],
+        types: [
+            {
+                id: 10,
+                type: "Beast"
+            }
+        ],
+        attributes: [
+            {
+                id: 1,
+                attribute: "Data"
+            }
+        ],
+        fields: [
+            {
+                id: 2,
+                field: "Nature Spirits",
+                image: "https://digi-api.com/images/etc/fields/Nature_Spirits.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "A nine-tailed fox Digimon, elegant and powerful. It commands fire and uses its tails as weapons in battle."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Dragon Wheel",
+                translation: "",
+                description: "Spins surrounded by fire and strikes the opponent."
+            },
+            {
+                id: null,
+                skill: "Fox Tail Inferno",
+                translation: "",
+                description: "Shoots flames from its nine tails."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Renamon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Taomon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Guilmon",
         image: "assets/images/guilmon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
-        fields: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 4,
+                level: "Child"
+            }
+        ],
+        types: [
+            {
+                id: 1,
+                type: "Reptile"
+            }
+        ],
+        attributes: [
+            {
+                id: 3,
+                attribute: "Virus"
+            }
+        ],
+        fields: [
+            {
+                id: 5,
+                field: "Dragon's Roar",
+                image: "https://digi-api.com/images/etc/fields/Dragon's_Roar.png"
+            },
+            {
+                id: 3,
+                field: "Nightmare Soldiers",
+                image: "https://digi-api.com/images/etc/fields/Nightmare_Soldiers.png"
+            }
+        ],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "A red dinosaur-like Digimon with a fierce look and a loyal heart. It breathes fire and loves bread."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Pyro Sphere",
+                translation: "",
+                description: "Spits fireballs from its mouth."
+            },
+            {
+                id: null,
+                skill: "Rock Breaker",
+                translation: "",
+                description: "Slashes the opponent with its claws."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Gigimon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Growlmon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Terriermon",
         image: "assets/images/terriermon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 4,
+                level: "Child"
+            }
+        ],
+        types: [
+            {
+                id: 10,
+                type: "Beast"
+            }
+        ],
+        attributes: [
+            {
+                id: 4,
+                attribute: "Vaccine"
+            }
+        ],
         fields: [],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
+        descriptions: {
+            reference_book: {
+                en_us: "A dog-and-rabbit-like Digimon with long ears. It is playful and easygoing, but it fights with courage when needed."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Bunny Blast",
+                translation: "",
+                description: "Shoots an energy blast from its mouth."
+            },
+            {
+                id: null,
+                skill: "Bunny Pummel",
+                translation: "",
+                description: "Hits the opponent repeatedly with its long ears."
+            }
+        ],
         priorEvolutions: [],
-        nextEvolutions: []
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Gargomon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Gargomon",
         image: "assets/images/gargomon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 2,
+                level: "Adult"
+            }
+        ],
+        types: [
+            {
+                id: null,
+                type: "Beast Man"
+            }
+        ],
+        attributes: [
+            {
+                id: 4,
+                attribute: "Vaccine"
+            }
+        ],
         fields: [],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "A gunner Digimon that evolved from Terriermon. It carries guns on both arms and fires them without stopping."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Gargo Pellets",
+                translation: "",
+                description: "Fires a rapid burst of bullets from both guns."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Terriermon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "MegaGargomon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Lopmon",
         image: "assets/images/lopmon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 4,
+                level: "Child"
+            }
+        ],
+        types: [
+            {
+                id: 10,
+                type: "Beast"
+            }
+        ],
+        attributes: [
+            {
+                id: 1,
+                attribute: "Data"
+            }
+        ],
         fields: [],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
+        descriptions: {
+            reference_book: {
+                en_us: "A rabbit-like Digimon with long ears and a kind heart. It is gentle and shy, but protects its friends with ice attacks."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Blazing Ice",
+                translation: "",
+                description: "Shoots a freezing blast at the opponent."
+            }
+        ],
         priorEvolutions: [],
-        nextEvolutions: []
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Turuiemon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     },
     {
         id: null,
         name: "Turuiemon",
         image: "assets/images/turuiemon.png",
-        xAntibody: null,
-        levels: [],
-        types: [],
-        attributes: [],
+        xAntibody: false,
+        levels: [
+            {
+                id: 2,
+                level: "Adult"
+            }
+        ],
+        types: [
+            {
+                id: null,
+                type: "Beast Man"
+            }
+        ],
+        attributes: [
+            {
+                id: 4,
+                attribute: "Vaccine"
+            }
+        ],
         fields: [],
         releaseDate: null,
-        descriptions: {},
-        skills: [],
-        priorEvolutions: [],
-        nextEvolutions: []
+        descriptions: {
+            reference_book: {
+                en_us: "A rabbit warrior Digimon with a calm and proud personality. It fights using its martial arts skills."
+            }
+        },
+        skills: [
+            {
+                id: null,
+                skill: "Tiny Twister",
+                translation: "",
+                description: "Spins its ears to create a small whirlwind that hits the opponent."
+            }
+        ],
+        priorEvolutions: [
+            {
+                id: null,
+                digimon: "Lopmon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ],
+        nextEvolutions: [
+            {
+                id: null,
+                digimon: "Antylamon",
+                condition: "",
+                image: "",
+                url: ""
+            }
+        ]
     }
 ];
+
 
 /*
 DIGIMON RETIRADOS TEMPORARIAMENTE
